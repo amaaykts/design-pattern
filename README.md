@@ -1,4 +1,7 @@
 # Шаблоны проектирования
+
+![Диаграмма](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Uml_classes_ru.svg/300px-Uml_classes_ru.svg.png "Диаграмма")
+
 ## Фабричный метод
 ![Диаграмма](https://upload.wikimedia.org/wikipedia/ru/f/f0/FactoryMethodPattern.png "Диаграмма")
 
