@@ -1,2 +1,1 @@
-# design-pattern
-design pattern
+# шаблоны проектирования
