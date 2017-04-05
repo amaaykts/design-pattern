@@ -6,13 +6,18 @@ import abstract_factory.factory.WindowsFactory;
 import abstract_factory.product.Button;
 import abstract_factory.product.Checkbox;
 
+import java.io.InputStreamReader;
+
 /**
  * Created by aandreev on 04.04.2017.
  */
 public class AbstractFactoryExample {
     public static void main(String[] args) {
-        createGUI(new MacOSFactory());
-        createGUI(new WindowsFactory());
+        AbstractFactory macOS = new MacOSFactory();
+        createGUI(macOS);
+
+        AbstractFactory windows = new WindowsFactory();
+        createGUI(windows);
     }
 
     private static void createGUI(AbstractFactory factory) {
